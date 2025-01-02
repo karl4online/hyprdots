@@ -70,4 +70,4 @@ starship|fish                                          # customizable shell prom
 fastfetch                                              # system information fetch tool
 
 # --------------------------------------------------- // HyDE
-hyde-cli-git                                           # cli tool to manage hyde
+# hyde-cli-git                                         # cli tool to manage hyde
