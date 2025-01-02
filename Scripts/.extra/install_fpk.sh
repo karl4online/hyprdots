@@ -17,10 +17,10 @@ if ! pkg_installed flatpak; then
     sudo pacman -S flatpak
 fi
 
-flatpak remote-add --user --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+flatpak remote-add --user --if-not-exists --subset=verified flathub-verified https://flathub.org/repo/flathub.flatpakrepo
 flats=$(awk -F '#' '{print $1}' "${baseDir}/custom_flat.lst" | sed 's/ //g' | xargs)
 
-flatpak install --user -y flathub ${flats}
+flatpak install --user -y flathub-verified ${flats}
 flatpak remove --unused
 
 gtkTheme=$(gsettings get org.gnome.desktop.interface gtk-theme | sed "s/'//g")
