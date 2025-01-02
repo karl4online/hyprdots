@@ -1,23 +1,23 @@
 # --------------------------------------------------- // System
 # downgrade                                            # downgrade packages
-# trash-cli-git                                        # cli to manage trash files
 # libinput-gestures                                    # actions touchpad gestures using libinput
 # gestures                                             # gui for libinput-gestures
+trash-cli-git                                          # cli to manage trash files
 
 # --------------------------------------------------- // Dependencies
-xdg-desktop-portal-gtk                                 # xdg desktop portal using gtk
 # emote                                                # emoji picker gtk3
+xdg-desktop-portal-gtk                                 # xdg desktop portal using gtk
 
 # --------------------------------------------------- // Gaming
-steam                                                  # gaming platform
-gamemode                                               # daemon and library for game optimisations
-mangohud                                               # system performance overlay
+# steam                                                # gaming platform
+# gamemode                                             # daemon and library for game optimisations
+# mangohud                                             # system performance overlay
 # gamescope                                            # micro-compositor for gaming
 
 # --------------------------------------------------- // Music
-cava                                                   # audio visualizer
+# cava                                                 # audio visualizer
+# spicetify-cli                                        # cli to customize spotify client
 spotify                                                # proprietary music streaming service
-spicetify-cli                                          # cli to customize spotify client
 
 # --------------------------------------------------- // Apps
-# neovim                                               # vim based text editor
+neovim                                               # vim based text editor
